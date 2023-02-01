@@ -17,9 +17,13 @@ run the app with
 
 ### `npm start`
 
+Note: I unfortunately had to code on windows for this project, and I ran into some really quirky issues when doing npm install. If you run into problems there try opening package.json and saving it.
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Have fun! 
 
 I left a few notes in the code such as a flag to test with an absurdly large list. 
+
+
