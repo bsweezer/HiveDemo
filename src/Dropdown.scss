@@ -1,0 +1,77 @@
+.dropDown {
+    color: black;
+    text-align: left;
+    width: 90%;
+    max-width: 400px;
+    * {
+        max-width: 400px;
+    }
+    :hover {
+        cursor: pointer;
+    }
+    
+    .dropdownButton {
+        width: 100%;
+        
+        border: none;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 4px;
+        font-size: medium;
+        
+        label {
+            float: left;
+            display: inline-flex;
+            overflow-x: hidden;
+        }
+        .chevron {
+            display: flex;
+            float: right;
+        }
+
+        
+    }
+    
+    .dropdownContent {
+        width: 100%;
+        overflow-x: hidden;
+        max-height: 30vh;
+
+        position: absolute;
+        width: inherit;
+        background-color: white;
+        
+        box-shadow: 0px 8px 16px -4px gray;
+        z-index: 1;
+        overflow-y: scroll;
+        
+    
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 4px;
+
+        .option {
+            width: 100%;
+            font-size: medium;
+            
+            :hover {
+                background-color: #cce6ee;
+                cursor: pointer;
+            }
+
+            span {
+                width: 100%;
+
+                display: flex;
+                align-items: center;
+                padding: 1rem;
+                padding-left: 2rem;
+                * {
+                    padding-right: .5rem;
+                }
+            }
+        }
+    }
+}
+
